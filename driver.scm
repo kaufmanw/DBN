@@ -1,4 +1,7 @@
-
+;; Lab:
+;;  Decision-Tree-Analysis
+;;  CSC 261
+;; 
 ;; File:
 ;;   driver.scm
 ;;
@@ -9,7 +12,8 @@
 ;;   [none]
 
 (load "classify.scm")
-(define mushroom-tree (decision-tree-learning mushroom-examples mushroom-attributes #\e))
+(define mushroom-tree 
+(decision-tree-learning mushroom-examples mushroom-attributes #\e))
 
 (display "data for part B, using run-trials") (newline)
 (run-trials mushroom-examples mushroom-attributes #\e 10)
