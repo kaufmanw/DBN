@@ -14,4 +14,4 @@ Academic honesty certification:
 	Our initials below confirm that the above list of sources
 	is complete AND that we have not talked to anyone else
 	(e.g., CSC 261 studnets) about the solution to this problem
-	Initials: WMK, 
+	Initials: WMK, SER
