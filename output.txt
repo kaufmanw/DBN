@@ -1,0 +1,5 @@
+data for part B, using run-trials
+(1931/4062 3697/10155 905/8124 3479/40620 754/10155 805/8124 611/20310 1847/40620 95/2031 667/20310 221/10155 751/40620 235/8124 383/20310 113/4062 151/8124 147/6770 463/20310 283/20310 115/8124 331/20310)
+data for part A, using decision-tree-accuracy
+1
+note that this doubles as a correctness check for our classification, as we would be extraordinarily unlikely to get the correct classifications by chance
