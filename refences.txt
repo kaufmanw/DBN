@@ -1,3 +1,7 @@
+Additional note: We used copy-paste to make output.txt instead of 
+command line prompts, in order to make it easier to do on a personal computer.
+The copy-paste was directy from the interactions pane of driver.scm.
+
 References:
 	Written/online sources used:
 	[none]
