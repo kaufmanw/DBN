@@ -1,30 +1,15 @@
-(require "weinman-dtree.scm")
+;(require "weinman-dtree.scm")
 (load "restaurant.scm")
 (load "mushroom.scm")
-;(load "learning.scm")
+(load "learning.scm")
 (load "analysis.scm")
 (load "dtree.scm")
-(require plot)
 
 (define mushroom-attributes
   (load-mushroom-attributes "mushroom-attribs.txt"))
 
 (define mushroom-examples
   (load-mushroom-examples "mushrooms.txt" mushroom-attributes))
-
-(define get-first-n
-  (lambda (n lst)
-    (if (= n 0)
-        lst
-        (cons (car lst) (get-first-n (- n 1) (cdr lst))))))
-
-(define descending
-  (lambda (lst)
-    (if (= (length lst) 1)
-        #t
-    (if (< (car lst) (cadr lst))
-        #f
-        (descending (cdr lst))))))
 
 ;;
 ;; File
@@ -72,8 +57,4 @@
               ([attrib (car dtree)]
                [val (cdr (assoc attrib instance))])
             (loop (cdr (assoc val (cdr dtree)))))]))))
-
-(define restaurant-tree (decision-tree-learning restaurant-examples restaurant-attributes #f))
-
-(define mushroom-tree (decision-tree-learning mushroom-examples mushroom-attributes #f))
 

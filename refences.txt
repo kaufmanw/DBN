@@ -1,0 +1,13 @@
+References:
+	Written/online sources used:
+	[none]
+	Help obtained:
+	We were using #t as the default value for mushrooms, which was
+	silly, and I believe that Jerod Weinman caught it in class and reminded
+	us to use #\e or #\p.
+
+Academic honesty certification:
+	Our initials below confirm that the above list of sources
+	is complete AND that we have not talked to anyone else
+	(e.g., CSC 261 studnets) about the solution to this problem
+	Initials: WMK, 
